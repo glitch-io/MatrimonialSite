@@ -1,0 +1,408 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+p,
+ul,
+li,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: Arial, sans-serif;
+}
+.header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background: #ff5a60;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+ul li a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* HomePage */
+/* hero */
+.hero {
+  background-image: url(../public/Indian-wedding-Pixabay-770x433.webp);
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.hero p {
+  font-size: 20px;
+  color: #fff;
+}
+.hero .cta-button {
+  margin-top: 30px;
+  padding: 20px 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: ease-in 0.3s;
+  cursor: pointer;
+}
+.cta-button:hover {
+  background: #ff5a60;
+  color: #fff;
+}
+/* Feature Profile */
+.featured-profiles {
+  background: #fff;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #ff5a60;
+}
+.featured-profiles h2 {
+  text-align: center;
+}
+.feature-profile {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Success Stories */
+.success-stories {
+  padding: 50px 40px;
+  background-color: #ff5a60;
+  color: #fff;
+}
+.success-stories h2 {
+  text-align: center;
+}
+.success-story-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.success-story {
+  padding: 15px 15px;
+  background: #fff;
+  color: #ff5a60;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Community Highlights */
+.community-highlights {
+  padding: 50px 40px;
+  background-color: #fff;
+  color: #ff5a60;
+}
+.community-highlights h2 {
+  text-align: center;
+}
+.community-posts {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Blog Section */
+.blog {
+  padding: 50px 40px;
+  background-color: #ff5a60;
+  color: #fff;
+}
+.blog h2 {
+  text-align: center;
+}
+.blog-posts {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.blog-article:hover {
+  cursor: pointer;
+}
+.blog-article h3:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 20px 60px;
+  background-color: #ff5a60;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links,
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-links a,
+.quick-links a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+/* MatrimonialProfile */
+/* Search Filter */
+.search-filters {
+  padding: 20px 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.search-filters h2 {
+  color: #000;
+  margin-bottom: 20px;
+}
+select {
+  outline: 1px solid #ff5a60 !important;
+  color: #ff5a60;
+  padding: 5px 0px;
+}
+.search-filters form {
+  background-color: #ff5a60;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+  gap: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.filter-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #ff5a60;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Blog-Page */
+.blog-page {
+  padding: 50px 40px;
+}
+.blog-page h1 {
+  text-align: center;
+}
+.blog-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.blog-item {
+  min-width: 250px;
+  min-height: 300px;
+  height: 300px;
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #ff5a60;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+  text-align: center;
+  text-align: left;
+  overflow: hidden;
+}
+.blog-item h2 {
+  margin: 10px 0;
+}
+
+/* contact Form */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 70px;
+}
+.contact-page h1 {
+  text-align: center;
+}
+.contact-form-div {
+  display: flex;
+  gap: 50px;
+  padding: 10px 50px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  transition: 0.2s ease;
+  position: relative;
+  text-align: left;
+}
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  background: #ff5a60;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+  gap: 5px;
+}
+
+.contact-item input,
+.contact-item textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #ff5a60;
+  color: #fff;
+}
+.contact-form button {
+  display: inline-block;
+  background: #ff5a60;
+  color: #fff;
+  padding: 15px 20px;
+  width: 20%;
+  border-radius: 10px;
+}
+.contact-info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 30px;
+}
+.active {
+  right: 0px !important;
+}
+
+/* //Media Queries */
+/* HomePage */
+@media screen and (max-width: 799px) {
+  .hero-text {
+    margin: 0 50px;
+  }
+  .blog-posts {
+    gap: 10px;
+  }
+  .blog-list {
+    justify-content: space-around;
+  }
+  .contact-form-div {
+    padding: 10px 10px;
+    gap: 20px;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .contact-form button {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 477px) {
+  .header #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #ff5a60;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+  .header #navbar li {
+    margin-bottom: 25px;
+  }
+  .header #navbar #close {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+    font-size: 24px;
+    display: initial;
+  }
+  .header .mobile {
+    display: flex;
+    align-items: center;
+  }
+  .header .mobile i {
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero-text {
+    margin: 0 30px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .feature-profile {
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .community-posts {
+    gap: 20px;
+  }
+  .footer {
+    padding: 20px 40px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .blog-item {
+    width: 100%;
+  }
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+  }
+  .contact-form-div {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
